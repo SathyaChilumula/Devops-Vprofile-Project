@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 horter Development Cycles, Faster Innovation
+=======
+1. Shorter Development Cycles, Faster Innovation
+>>>>>>> Dev-Murthy
 When development and operations teams are in separate silos, it’s usually difficult to tell if an application is ready for operations. When development teams simply turn over an application, the operations’ cycle times are extended needlessly.
 
 With a combined development and operations team, applications are ready for use much more quickly. This is important, since companies succeed based on their ability to innovate faster than their competitors do. In fact, Kevin Murphy from Red Hat estimates that shorter development cycles translate to bringing an application to market 60 percent faster than with traditional approaches.
@@ -22,3 +26,14 @@ Scalable infrastructures, such as cloud-based platforms, increase the access the
 Build acceleration tools can be used to compile code more quickly.
 Parallel workflows can be embedded into the continuous delivery chain to avoid delays; one team waits for another to complete its work.
 Using one environment avoids the useless task of transferring data between environments. This means you don’t have to use one environment for development, a different environment for testing, and a third for deployment.
+<<<<<<< HEAD
+=======
+
+5. Reduced Costs and IT Headcount
+All of the DevOps benefits translate to reduced overall costs and IT headcount requirements. According to Kevin Murphy from Red Hat, DevOps development teams require 35 percent less IT staff and 30 percent lower IT costs.
+
+Final Thoughts
+The industry has spoken, and it’s implementing DevOps at a rapid rate. Organizations are eager to take advantage of faster application delivery, enhanced innovation, more stable operating environments, and performance-focused employee teams.
+
+When you want to make DevOps work for your organization, you need a partner who can help you realize the benefits. Our team of open-source DevOps experts can help you speed up application development and give you greater visibility and control across your applications, servers, and services.
+>>>>>>> Dev-Murthy
