@@ -1,7 +1,8 @@
-onfirms that the activation key that is sent in an email after a user signs
- * up for a new site matches the key for that user and then displays confirmation.
+confirms that the activation key that is sent in an email after a user signs
+ /* up for a new site matches the key for that user and then displays confirmation.
  *
  * @package WordPress
+Author: Sathya Chilumula
  */
 
 define( 'WP_INSTALLING', true );
@@ -129,10 +130,12 @@ get_header( 'wp-activate' );
 			?>
 			<h2><?php _e('Your account is now active!'); ?></h2>
 
-			<div id="signup-welcome">
+		/*
+				<div id="signup-welcome">
 				<p><span class="h3"><?php _e('Username:'); ?></span> <?php echo $user->user_login ?></p>
 				<p><span class="h3"><?php _e('Password:'); ?></span> <?php echo $result['password']; ?></p>
 			</div>
+		*/
 
 			<?php if ( $url && $url != network_home_url( '', 'http' ) ) :
 				switch_to_blog( (int) $result['blog_id'] );
