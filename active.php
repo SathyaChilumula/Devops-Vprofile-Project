@@ -88,7 +88,9 @@ get_header( 'wp-activate' );
 		</form>
 
 	<?php } else {
-
+<?php
+echo "activaion of wp.config"
+?>
 		$key = !empty($_GET['key']) ? $_GET['key'] : $_POST['key'];
 		$result = wpmu_activate_signup( $key );
 		if ( is_wp_error($result) ) {
