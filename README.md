@@ -24,7 +24,12 @@ Then look for the file :
 - accountsdb.sql file is a mysql dump file.we have to import this dump to mysql db server
 - > mysql -u <user_name> -p accounts < accountsdb.sql
 -Author of this file: Sathya Chilumula
-
+- New Developer added to the team:
+Priya
+#!/bin/bash
+First_name= "Priya"
+Last_name= "priay1"
+echo "First_name + Last_name"
 git status
 # On branch master
 # Your branch and 'origin/master' have diverged,
